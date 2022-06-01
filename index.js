@@ -16,6 +16,6 @@
   let requiredRange3 = [200, null];
 
 
-function filterCourses(courses, requiredRange) {
+export function filterCourses(courses, requiredRange) {
     
   }
