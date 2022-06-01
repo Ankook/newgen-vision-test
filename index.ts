@@ -28,5 +28,7 @@ type requiredRangeType = Array<number | null>
 
 
 export function filterCourses(courses: Array<CourseType>, requiredRange) {
-    return courses.filter(course => overlap(requiredRange[0], requiredRange[1], course.prices[0], course.prices[1]) == true)
+  let result = courses.filter(course => overlap(requiredRange[0], requiredRange[1], course.prices[0], course.prices[1]) == true);
+  return result;
+  
 }

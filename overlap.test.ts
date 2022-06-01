@@ -1,6 +1,5 @@
-import { requiredRange1, requiredRange2, requiredRange3 } from "./index";
 import { overlap } from "./overlap";
-import { courses } from "./index";
+
 
 
 
