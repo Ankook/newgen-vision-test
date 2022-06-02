@@ -7,6 +7,6 @@ export function overlap(min1: number | null, max1: number | null, min2: number |
   { min2 == null ? min2 = -Infinity : null }
   { max1 == null ? max1 = +Infinity : null }
   {max2 == null ? max2 = +Infinity : null}
-  return  !((max1 < min2) || (max2 < min1))
+  return  !(max1 < min2 || max2 < min1)
 }
 
